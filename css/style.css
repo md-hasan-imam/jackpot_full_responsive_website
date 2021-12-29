@@ -1,0 +1,972 @@
+:root {
+    --ff1: 'Anton', sans-serif;
+    --ff2: 'Nunito', sans-serif;
+
+    --bg1: #0b001b;
+    --bg2: #150035;
+
+    --brandcl: #0b001b;
+
+    --headingcl1: #e07e1f;
+    --headingcl2: #feb701;
+
+
+    --navbg: #570dc8;
+    --navcl: #944bff;
+
+    --contentcl1: #570dc8;
+    --contentcl2: #9e4efc;
+
+    --fcll: #ffffff;
+
+    --hovercl1: #a60084;
+    --hovercl2: #ff39dc;
+
+    --cl1: #ffffff;
+    --cl2: #f1f1f1;
+    --cl3: #000000;
+
+    --overcl75: rgb(21, 0, 53, .75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===============
+ common css ends
+================= */
+
+.ant-reg {
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+
+.ant-s-bold {
+    font-family: var(--ff1);
+    font-weight: 600;
+}
+
+.nun-e-light {
+    font-family: var(--ff2);
+    font-weight: 200;
+}
+
+.nun-reg {
+    font-family: var(--ff2);
+    font-weight: 400;
+}
+
+.nun-s-bold {
+    font-family: var(--ff2);
+    font-weight: 600;
+}
+
+.nun-bold {
+    font-family: var(--ff2);
+    font-weight: 700;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-331 {
+    font-size: 331px;
+}
+
+
+
+
+
+.lh-26 {
+    line-height: 26px;
+}
+
+.lh-40 {
+    line-height: 40px;
+}
+
+.lh-50 {
+    line-height: 50px;
+}
+
+/*===============
+ font css ends
+================= */
+
+.bg-grad {
+    background-image: linear-gradient(#9e4efc, #570dc8);
+}
+
+.hvr-grad {
+    background-image: linear-gradient(#ff39dc, #a60084);
+}
+
+
+/*===============
+ color css ends
+================= */
+
+
+.section-head h3 {
+    color: #feb701;
+}
+
+/*===============
+ section header css ends
+================= */
+
+/*===============
+navbar css starts 
+================= */
+
+.navbar {
+    padding-bottom: 0 !important;
+    background: var(--bg2);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    white-space: nowrap;
+    padding-left: 53px !important;
+    color: var(--navcl);
+    line-height: 60px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hovercl2);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--hovercl2) !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hovercl2) !important;
+}
+
+
+.navbar .btn {
+    padding: 0px 30px !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    box-shadow: 0px 5px 0px 0px rgb(11, 0, 27);
+}
+
+.navbar .btn:hover {
+    background-image: linear-gradient(#ff39dc, #a60084);
+    box-shadow: 0px 5px 0px 0px rgb(122, 3, 99);
+
+}
+
+.navbar .btn:last-of-type {
+    margin-left: 23px;
+}
+
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar .navbar-nav li:first-of-type {
+    margin-left: 115px !important;
+}
+
+.navbar .navbar-collapse {
+    padding-top: 74px;
+}
+
+/*===============
+navbar css ends 
+================= */
+
+/*===============
+banner css starts
+================= */
+#banner {
+    background: var(--bg2);
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+#banner .banner-image .image{
+    top: 0;
+    left: -225px;
+}
+
+#banner .banner-text h4 {
+    text-align: left !important;
+    padding-top: 60px !important;
+    padding-bottom: 5px !important;
+    padding-left: 10px !important;
+}
+
+#banner .banner-text h3 {
+    line-height: 290px;
+    text-align: left;
+    padding-bottom: 40px !important;
+    color:#feb701 ;
+    text-shadow: 0px 0px 5px 0px rgb(224, 126, 31) !important;
+}
+
+#banner .banner-text p {
+    line-height: 26px;
+    padding-left: 10px !important;
+    padding-right: 47px !important;
+    margin-bottom: 30px !important;
+}
+
+#banner .banner-text .btn {
+    padding: 0px 30px !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    box-shadow: 0px 5px 0px 0px rgb(11, 0, 27);
+}
+
+#banner .banner-text .btn:hover{
+    background-image: linear-gradient(#ff39dc, #a60084);
+    box-shadow: 0px 5px 0px 0px rgb(122, 3, 99);
+}
+
+
+/* steps start in banner section */
+
+#steps {
+    background-image: linear-gradient(#150035, #0b001b);
+}
+
+#steps .steps-slider{
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+}
+
+
+#steps .step {
+    background-image: linear-gradient(55deg, rgb(78, 17, 148), #570dc8);
+}
+
+#steps  .row>* {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#steps  .step h3 {
+    padding-top: 35px !important;
+    padding-bottom: 10px !important;
+    color:#feb701 ;
+}
+
+#steps .step p {
+    padding-bottom: 55px !important;
+}
+
+
+/*===============
+banner css ends
+================= */
+
+/*===============
+steps css starts
+================= */
+#games {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--bg1);
+}
+
+#games .section-head {
+    padding-bottom: 60px;
+}
+
+#games .section-head h3 {
+    color:#feb701 ;
+}
+
+#games .game-item .image-overlay {
+    transform: scale(0);
+    opacity: 0;
+    display: hidden;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+#games .game-item:hover .image-overlay {
+    transform: scale(1);
+    background: var(--overcl75);
+    display: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+#games .game-item .image-overlay h3 {
+    padding-bottom: 35px !important;
+}
+
+#games .game-item .image-overlay .btn {
+    padding: 5px 35px !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    box-shadow: 0px 5px 0px 0px rgb(11, 0, 27);
+}
+
+#games .game-item .image-overlay .btn:hover {
+    background-image: linear-gradient(#ff39dc, #a60084);
+    box-shadow: 0px 5px 0px 0px rgb(122, 3, 99);
+
+}
+
+/*===============
+steps css ends
+================= */
+
+/*===============
+spin css starts
+================= */
+#spin {
+    background: var(--bg2);
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
+#spin .spin-details .section-head h3 {
+    padding-top: 80px !important;
+    padding-bottom: 65px !important;
+    color:#feb701 ;
+}
+#spin .spin-details p:first-of-type {
+    padding-bottom: 25px !important;
+}
+
+#spin .spin-details p:last-of-type {
+    padding-bottom: 60px !important;
+}
+
+#spin .spin-details .ctn-btn {
+    padding: 5px 35px !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px rgb(11, 0, 27);
+}
+
+#spin .spin-details .ctn-btn:hover {
+    background-image: linear-gradient(#ff39dc, #a60084);
+    box-shadow: 0px 5px 0px 0px rgb(122, 3, 99);
+}
+
+
+
+/*===============
+spin css ends
+================= */
+
+/*===============
+pricing css starts
+================= */
+
+#pricing {
+    background: var(--bg1);
+    padding-top: 95px;
+    padding-bottom: 110px;
+}
+
+#pricing .section-head {
+    padding-bottom: 90px;
+}
+
+#pricing .pricing-item {
+    background-image: linear-gradient(#9e4efc, #570dc8);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#pricing .pricing-item:hover {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+#pricing .pricing-item .pricing-featured h5 {
+    display: hidden;
+    opacity: 0;
+    line-height: 55px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 5px 0px 0px rgb(88, 0, 71);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    transform: translateY(-65px);
+    -webkit-transform: translateY(-65px);
+    -moz-transform: translateY(-65px);
+    -ms-transform: translateY(-65px);
+    -o-transform: translateY(-65px);
+    overflow: hidden;
+}
+
+#pricing .pricing-item:hover .pricing-featured h5 {
+    display: visible;
+    opacity: 1;
+    transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+    -moz-transform: translateY(-60px);
+    -ms-transform: translateY(-60px);
+    -o-transform: translateY(-60px);
+}
+
+#pricing .pricing-item h4 {
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+}
+
+#pricing .pricing-item p {
+    padding-bottom: 25px !important;
+}
+
+#pricing .pricing-item ul {
+    position: relative;
+    padding-top: 15px !important;
+    padding-bottom: 50px !important;
+
+}
+
+#pricing .pricing-item ul:before {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #0b001b;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+#pricing .pricing-item {
+    position: relative;
+}
+
+#pricing .pricing-item .cta a {
+    background-image: linear-gradient(#9e4efc, #570dc8);
+    padding: 6px 35px !important;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px rgb(11, 0, 27);
+
+}
+
+#pricing .pricing-item:hover .cta a {
+    background-image: linear-gradient(#ff39dc, #a60084);
+    box-shadow: 0px 5px 0px 0px rgb(88, 0, 71);
+}
+
+/*===============
+pricing css ends
+================= */
+
+/*===========================
+faq and tournament css starts
+============================= */
+
+#faq {
+    background: var(--bg2);
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+#faq .section-head h3 {
+    padding-bottom: 30px !important;
+    position: relative;
+    color:#feb701 ;
+}
+
+#faq .section-head h3:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #080007;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+
+#faq .transition {
+    height: 1px;
+    width: 100%;
+    background: #3b107e;
+}
+
+#faq .transition .ball {
+    height: 1px;
+    width: 15px;
+    background-color: #7022ec;
+    box-shadow: 0px 0px 15px 0px rgb(238, 121, 214);
+    animation: line-light 3s linear infinite;
+    -webkit-animation: line-light 25s linear infinite;
+}
+
+@keyframes line-light {
+    0% {
+        right: 0%;
+    }
+
+    50% {
+        right: 98.5%;
+    }
+
+    100% {
+        right: 0%;
+    }
+}
+
+
+#faq .question .accordion {
+    padding-top: 60px !important;
+}
+
+#faq .question .accordion .accordion-item {
+    background: var(--bg2) !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    box-sizing: border-box;
+    padding: 30px !important;
+}
+
+#faq .question .accordion .accordion-item:hover {
+    border: 1px solid #fcb100 !important;
+}
+
+#faq .question .accordion .accordion-item .accordion-button {
+    background-color: var(--bg2);
+    color: #ffffff !important;
+}
+
+
+#faq .question .accordion .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+
+#faq .question .accordion .accordion-item .accordion-button:active {
+    color: #ffffff;
+}
+
+#faq .question .accordion .accordion-button:not(.collapsed) {
+    color: #ffffff;
+}
+
+#faq .question .accordion .accordion-item .accordion-button::after {
+    color: #ffffff !important;
+}
+
+#faq .question .accordion .accordion-item .accordion-body {
+    padding: 0px !important;
+    padding-top: 15px !important;
+    padding-right: 17px !important;
+}
+
+/* tournament part */
+
+#faq .tournament ul li {
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 5px !important;
+    padding-top: 25px !important;
+}
+
+#faq .tournament ul li img {
+    height: 20px;
+    width: 20px;
+}
+
+#faq .tournament-section .tournament ul li::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #080007;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+.tournament .time-header li::after{
+    height: 0px !important;
+}
+/* remaining times section */
+
+#faq .tournament .countdown-container .time {
+    border-color: #fcb100 !important;
+    margin-right: 30px !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+#faq .tournament .countdown-container .time:last-of-type{
+    margin-right: 0px !important;
+}
+
+
+.border {
+    border: 1px solid #fcb100 !important;
+}
+
+
+
+
+/* scroll bar */
+
+#faq .tournament .competitors {
+    height: 270px;
+    width: 100%;
+    overflow: auto;
+    padding-right: 40px !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    color: #ff39dc;
+}
+
+/*==========================
+faq and tournament  css ends
+============================= */
+
+/*=================================
+subscription and payment css starts
+=================================== */
+#subscription {
+    padding-bottom: 30px !important;
+    box-shadow: 0px 5px 0px 0px rgb(104, 3, 84);
+}
+
+#subscription h4 {
+    padding-top: 30px !important;
+    padding-bottom: 15px !important;
+}
+
+/* #subscription .payment .payment-gateway li{
+    margin-right: 20px !important;
+} */
+
+
+
+
+#subscription .subscribe form {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #0b001b !important;
+}
+
+#subscription .subscribe form input {
+    width: 90%;
+    height: 38px;
+    background: transparent;
+    border: transparent;
+    border-right: 1px solid #0b001b !important;
+    outline: none !important;
+}
+
+#subscription .subscribe form i {
+    padding-left: 7px !important;
+    color: #150035;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#subscription .subscribe form:hover i {
+    color: var(--hovercl2);
+}
+
+#subscription .payment {
+    padding-left: 100px !important;
+}
+
+#subscription .payment ul li img{
+    margin-right: 10px !important;
+}
+
+/*==============================
+subscription and payment css ends
+================================ */
+
+/*===============
+footer css starts
+================= */
+
+footer {
+    background: var(--bg1);
+    padding-bottom: 70px;
+}
+
+footer .about .footer-social a {
+    margin-right: 10px !important;
+    background: linear-gradient(#9e4efc, #570dc8);
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+footer .about .footer-social a i {
+    font-size: 20px;
+}
+
+footer .about .footer-social a {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+footer .about .footer-social a:hover {
+    background-image: linear-gradient(#ff39dc, #a60084);
+    color: white;
+}
+
+footer .about h4 {
+    padding-top: 30px !important;
+    padding-bottom: 15px !important;
+}
+
+
+footer .about p {
+    padding-bottom: 35px !important;
+}
+
+
+footer .links h4 {
+    padding-top: 30px !important;
+    padding-bottom: 15px !important;
+}
+
+
+footer .security {
+    padding-left: 20px !important;
+}
+
+
+footer .security h4 {
+    padding-top: 30px !important;
+    padding-bottom: 15px !important;
+}
+
+footer .links ul li a {
+    white-space: nowrap;
+    color: white !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+footer .links ul li:hover a{
+    color: var(--hovercl2) !important;
+}
+
+footer .links .right-link ul {
+    padding-left: 30px !important;
+}
+
+footer .security .sec-text {
+    padding-left: 20px !important;
+}
+
+footer .security .sec-text p {
+    padding-right: 40px !important;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+footer .security .sec-text p:hover{
+    color: var(--hovercl2) !important;
+    
+}
+
+footer .security .security-1 {
+    margin-bottom: 30px !important;
+}
+
+footer .security .security-1 .sec-text p {
+    padding-right: 0px !important;
+}
+
+/*===============
+footer css ends
+================= */
+
+/*===============
+copyright css starts
+================= */
+#copyright {
+    background: var(--bg1);
+    border-top: 2px solid #000000;
+}
+
+
+#copyright .transition {
+    height: 1px;
+    width: 100%;
+    background: #3b107e;
+}
+
+#copyright .transition .ball {
+    height: 1px;
+    width: 15px;
+    background-color: #7022ec;
+    box-shadow: 0px 0px 15px 0px rgb(238, 121, 214);
+    animation: line-light 30s linear;
+    -webkit-animation: line-light 30s linear;
+}
+
+@keyframes line-light {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 98.5%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+#copyright p {
+    line-height: 60px;
+}
+
+#copyright .copy a {
+    color: #a166fa;
+    font-weight: 700;
+}
+
+/*===============
+copyright css ends
+================= */

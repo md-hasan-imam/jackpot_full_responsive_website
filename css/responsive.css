@@ -1,0 +1,848 @@
+/* ================
+extra small device
+================= */
+
+
+@media (max-width:575px) {
+
+    /* navbar css */
+    .navbar .navbar-brand {
+        margin-right: 0px !important;
+        position: unset !important;
+        margin-right: 0px !important;
+        width: 70% !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #ff39dc !important;
+        margin-right: 20px;
+        color: #ff39dc !important;
+        padding: 5px 10px !important;
+        margin-top: 70px !important;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        color: #ff39dc;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar .navbar-collapse {
+        padding-top: 0px !important;
+    }
+
+    .navbar-light .navbar-nav {
+
+        background: #570dc8;
+        width: 100%;
+    }
+
+    .navbar-nav form .ctn-btn a {
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav li:first-of-type {
+        margin-left: 0px !important;
+    }
+
+    .navbar-light .navbar-collapse form {
+        justify-content: center;
+    }
+
+    /* navbar css ends*/
+
+    /* banner css starts*/
+
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    #banner .banner-image .image {
+        position: unset !important;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 200px;
+        padding-bottom: 0px !important;
+    }
+
+    #banner .banner-text h4 {
+        text-align: left !important;
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    #banner .banner-text h3 {
+        line-height: 200px;
+        text-align: center;
+    }
+
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 10px !important;
+        padding-right: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* banner css ends*/
+
+    /* steps css starts*/
+    #steps .step h3 {
+        font-size: 40px;
+    }
+
+    #steps .step h4 {
+        font-size: 26px;
+    }
+
+    #steps .step p {
+        font-size: 14px;
+    }
+
+    /* steps css ends*/
+
+    /* games css starts*/
+
+    #games {
+        padding-top: 70px;
+    }
+
+    #games .game-item {
+        padding-bottom: 50px !important;
+    }
+
+    /*  spin css starts*/
+
+    #spin {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #pricing .section-head {
+        padding-bottom: 50px;
+    }
+
+    #spin .spin-details .section-head h3 {
+        padding-top: 0px !important;
+        padding-bottom: 30px !important;
+        background-image: linear-gradient(#fcb100, #c06913, #fcb100);
+        background-clip: text;
+        color: transparent;
+    }
+
+    #spin .spin-details p:first-of-type {
+        padding-bottom: 15px !important;
+    }
+
+    #spin .spin-details p {
+        font-size: 14px !important;
+    }
+
+    #spin .spin-details p:last-of-type {
+        padding-bottom: 40px !important;
+    }
+
+
+    #spin .spin-image {
+        padding-top: 20px !important;
+    }
+
+    /* spin css ends*/
+
+    /* pricing css starts*/
+    #pricing {
+        background: var(--bg1);
+        padding-top: 70px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .section-head h3 {
+        font-size: 40px;
+
+    }
+
+    #pricing .pricing-item {
+        margin-bottom: 80px;
+    }
+
+    /* pricing css ends*/
+
+
+    /* faq css starts*/
+
+    #faq {
+        background: var(--bg2);
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #faq .section-head h3 {
+        padding-bottom: 25px !important;
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    #faq .col-lg-5 .section-head h3 {
+        padding-top: 50px !important;
+        padding-bottom: 25px !important;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #faq .question .accordion {
+        padding-top: 40px !important;
+    }
+
+    #faq .question .accordion .accordion-item .accordion-button {
+        font-size: 14px !important;
+    }
+
+    #faq .question .accordion .accordion-item .accordion-body {
+        font-size: 14px !important;
+
+    }
+
+    /*faq ends */
+
+
+
+
+    #faq .tournament .time-header {
+        padding-left: 0px !important;
+    }
+
+    #faq .tournament .time-header h3 {
+        font-size: 16px !important;
+    }
+
+    #faq .tournament .time-header p {
+        font-size: 14px !important;
+    }
+
+
+    #faq .tournament .countdown-container .time {
+        margin-right: 10px !important;
+    }
+
+    #faq .tournament .competitors li p{
+        font-size: 14px;
+    }
+
+
+    /* subscription starts */
+    #subscription .payment {
+        padding-left: 0px !important;
+    }
+
+    #subscription .payment ul li img {
+        width: 50px !important;
+        margin-right: 5px !important;
+    }
+
+    #subscription .subscribe form input {
+        width: 85%;
+    }
+
+
+    /* subscription ends */
+
+
+    /* payment css starts*/
+
+    /* payment css ends*/
+
+    /* footer css starts*/
+
+    footer .security h4 {
+        padding-top: 45px !important;
+        padding-bottom: 15px !important;
+    }
+
+
+
+
+    /* footer css ends*/
+
+
+    /* copyright css starts*/
+
+
+    #copyright .transition {
+        width: 97%;
+    }
+    #copyright .copy p{
+font-size: 14px !important;
+    }
+
+    /* copyright css ends*/
+}
+
+/* ==============
+extra small device ends
+================= */
+
+/* ==================
+small device starts
+=====================*/
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    /* navbar css */
+    .navbar .navbar-brand {
+        margin-right: 0px !important;
+        position: unset !important;
+        margin-right: 0px !important;
+        width: 70% !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #ff39dc !important;
+        margin-right: 20px;
+        color: #ff39dc !important;
+        padding: 5px 10px !important;
+        margin-top: 70px !important;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        color: #ff39dc;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar .navbar-collapse {
+        padding-top: 0px !important;
+    }
+
+    .navbar-light .navbar-nav {
+
+        background: #570dc8;
+        width: 100%;
+    }
+
+    .navbar-nav form .ctn-btn a {
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav li:first-of-type {
+        margin-left: 0px !important;
+    }
+
+    .navbar-light .navbar-collapse form {
+        justify-content: center;
+    }
+
+    /* navbar css ends*/
+
+    /* banner css starts*/
+
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    #banner .banner-image .image {
+        position: unset !important;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 200px;
+        padding-bottom: 0px !important;
+    }
+
+    #banner .banner-text h4 {
+        text-align: left !important;
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 250px !important;
+        line-height: 250px;
+        text-align: center;
+    }
+
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 10px !important;
+        padding-right: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* banner css ends*/
+
+    /* steps css starts*/
+    #steps .step h3 {
+        font-size: 40px;
+    }
+
+    #steps .step h4 {
+        font-size: 26px;
+    }
+
+    #steps .step p {
+        font-size: 14px;
+    }
+
+    /* steps css ends*/
+
+    /* games css starts*/
+
+    #games {
+        padding-top: 70px;
+    }
+
+    #games .game-item {
+        padding-bottom: 50px !important;
+    }
+
+    /*  spin css starts*/
+
+    #spin {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #pricing .section-head {
+        padding-bottom: 50px;
+    }
+
+    #spin .spin-details .section-head h3 {
+        padding-top: 0px !important;
+        padding-bottom: 30px !important;
+        background-image: linear-gradient(#fcb100, #c06913, #fcb100);
+        background-clip: text;
+        color: transparent;
+    }
+
+    #spin .spin-details p:first-of-type {
+        padding-bottom: 15px !important;
+    }
+
+    #spin .spin-details p {
+        font-size: 14px !important;
+    }
+
+    #spin .spin-details p:last-of-type {
+        padding-bottom: 40px !important;
+    }
+
+
+    #spin .spin-image {
+        padding-top: 50px !important;
+    }
+
+    /* spin css ends*/
+
+    /* pricing css starts*/
+    #pricing {
+        background: var(--bg1);
+        padding-top: 70px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .section-head h3 {
+        font-size: 40px;
+
+    }
+
+    #pricing .pricing-item {
+        margin-bottom: 80px;
+    }
+
+    /* pricing css ends*/
+
+
+    /* faq css starts*/
+
+    #faq {
+        background: var(--bg2);
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #faq .section-head h3 {
+        padding-bottom: 25px !important;
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    #faq .col-lg-5 .section-head h3 {
+        padding-top: 50px !important;
+        padding-bottom: 25px !important;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #faq .question .accordion {
+        padding-top: 40px !important;
+    }
+
+    #faq .question .accordion .accordion-item .accordion-button {
+        font-size: 14px !important;
+    }
+
+    #faq .question .accordion .accordion-item .accordion-body {
+        font-size: 14px !important;
+    }
+
+
+
+
+    /*faq ends */
+
+    /* subscription starts */
+    #subscription .payment {
+        padding-left: 0px !important;
+    }
+
+    #subscription .payment ul li img {
+        width: 50px !important;
+        margin-right: 5px !important;
+    }
+    #subscription .subscribe form input {
+        width: 91%;
+    }
+
+
+    /* subscription ends */
+
+
+    /* payment css starts*/
+
+    /* payment css ends*/
+
+    /* footer css starts*/
+
+    footer .security h4 {
+        padding-top: 45px !important;
+        padding-bottom: 15px !important;
+    }
+
+    /* footer css ends*/
+
+
+    /* copyright css starts*/
+
+
+    #copyright .transition {
+        width: 97%;
+    }
+
+    /* copyright css ends*/
+}
+
+/* ================
+small device ends
+=================== */
+
+/* ================
+medium device starts
+=================== */
+
+@media(min-width:768px) and (max-width:991px) {
+
+    /* navbar css */
+    .navbar .navbar-brand {
+        margin-right: 20px !important;
+        position: unset !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #ff39dc !important;
+        margin-right: 30px;
+        color: #ff39dc !important;
+        padding: 5px 10px !important;
+        margin-top: 70px !important;
+        font-size: 25px;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        color: #ff39dc;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar .navbar-collapse {
+        padding-top: 0px !important;
+    }
+
+    .navbar-light .navbar-nav {
+        background: #570dc8;
+        width: 100%;
+    }
+
+    .navbar-nav form .ctn-btn a {
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav li:first-of-type {
+        margin-left: 0px !important;
+    }
+
+    .navbar-light .navbar-collapse form {
+        justify-content: center;
+    }
+
+    /* navbar css ends*/
+
+    /* banner css starts*/
+
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    #banner .banner-image .image {
+        position: unset !important;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 200px;
+        padding-bottom: 0px !important;
+    }
+
+    #banner .banner-text h4 {
+        text-align: left !important;
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 300px !important;
+        line-height: 300px;
+        text-align: center;
+    }
+
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 10px !important;
+        padding-right: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* banner css ends*/
+
+    /* steps css starts*/
+    #steps .step h3 {
+        font-size: 40px;
+    }
+
+    #steps .step h4 {
+        font-size: 26px;
+    }
+
+    #steps .step p {
+        font-size: 14px;
+    }
+
+    /* steps css ends*/
+
+    /* games css starts*/
+
+    #games {
+        padding-top: 70px;
+    }
+
+    #games .game-item {
+        padding-bottom: 50px !important;
+    }
+
+    #games .game-item {
+        padding-bottom: 0px !important;
+    }
+
+    /*  spin css starts*/
+
+    #spin {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #pricing .section-head {
+        padding-bottom: 50px;
+    }
+
+    #spin .spin-details .section-head h3 {
+        padding-top: 0px !important;
+        padding-bottom: 30px !important;
+        background-image: linear-gradient(#fcb100, #c06913, #fcb100);
+        background-clip: text;
+        color: transparent;
+    }
+
+    #spin .spin-details p:first-of-type {
+        padding-bottom: 15px !important;
+    }
+
+    #spin .spin-details p {
+        font-size: 14px !important;
+    }
+
+    #spin .spin-details p:last-of-type {
+        padding-bottom: 40px !important;
+    }
+
+
+    #spin .spin-image {
+        padding-top: 50px !important;
+    }
+
+    /* spin css ends*/
+
+    /* pricing css starts*/
+    #pricing {
+        background: var(--bg1);
+        padding-top: 70px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .section-head h3 {
+        font-size: 40px;
+
+    }
+
+    #pricing .pricing-item {
+        margin-bottom: 80px;
+        text-align: center !important;
+    }
+
+    /* pricing css ends*/
+
+
+    /* faq css starts*/
+
+    #faq {
+        background: var(--bg2);
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #faq .section-head h3 {
+        padding-bottom: 25px !important;
+        text-align: center;
+
+    }
+
+    #faq .col-lg-5 .section-head h3 {
+        padding-top: 50px !important;
+        padding-bottom: 25px !important;
+        text-align: center;
+    }
+
+    #faq .question .accordion {
+        padding-top: 40px !important;
+    }
+
+
+    /*faq ends */
+
+    /* subscription starts */
+    #subscription .payment {
+        padding-left: 0px !important;
+    }
+
+    #subscription .payment ul li img {
+        width: 50px !important;
+        margin-right: 5px !important;
+    }
+    #subscription .subscribe form input {
+        width: 93%;
+    }
+
+    /* subscription ends */
+
+
+    /* payment css starts*/
+
+    /* payment css ends*/
+
+    /* footer css starts*/
+
+
+
+    /* footer css ends*/
+
+
+    /* copyright css starts*/
+
+
+    #copyright .transition {
+        width: 97%;
+    }
+
+    /* copyright css ends*/
+}
+
+/* ================
+medium device ends
+=================== */
+
+
+/* ================
+large device starts
+=================== */
+/* ================
+large device ends
+=================== */
